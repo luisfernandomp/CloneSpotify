@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2022/julho/receita-federal-atualiza-regras-sobre-a-dctfweb/receita-federal.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    color: white !important;
+}
+
+main {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cpf{
+    display: none;
+    font-size: 0.75em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cpf-invalido {
+    color: red !important;
+    display: block !important;
+}
+
+.form-invalido{
+    color: red !important;
+    border-color: red !important;
+}
